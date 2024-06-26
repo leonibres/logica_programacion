@@ -4,13 +4,14 @@ En este repositorio encontrarás ejemplos y explicaciones detalladas sobre los c
 #### Ciclo while
 El ciclo while se utiliza cuando queremos que un bloque de código se repita mientras una condición sea verdadera.
 
-javascript
-Copiar código
+~~~~
 let i = 1;
 while (i <= 10) {
     console.log(`Iteración ${i}`);
     i++;
 }
+~~~~
+
 Características:
 La condición se evalúa antes de ejecutar el bloque de código.
 Puede no ejecutarse nunca si la condición inicialmente es falsa.
