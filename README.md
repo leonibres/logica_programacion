@@ -16,7 +16,7 @@ while (i <= 10) {
 La condición se evalúa antes de ejecutar el bloque de código.
 Puede no ejecutarse nunca si la condición inicialmente es falsa.
 
-## Ciclo do while
+## Ciclo do while 🔄
 El ciclo do while es similar al while, pero garantiza que el bloque de código se ejecute al menos una vez, ya que la condición se evalúa después de ejecutar el bloque.
 
 ~~~~
@@ -31,7 +31,7 @@ do {
 Asegura al menos una ejecución del bloque de código.
 La condición se evalúa después de cada iteración.
 
-## Ciclo for
+## Ciclo for 🔄
 El ciclo for es ideal cuando conocemos el número exacto de iteraciones que queremos realizar. Es una estructura compacta que incluye la inicialización, la condición y el incremento de la variable de control en una sola línea.
 
 ~~~~
@@ -44,7 +44,7 @@ for (let i = 1; i <= 10; i++) {
 Estructura controlada con una variable de control definida internamente.
 Perfecto para iterar sobre arreglos y rangos predecibles.
 
-## Ejercicio: Tabla de multiplicar del 10
+## Ejercicio: Tabla de multiplicar del 10 📊
 Como ejercicio práctico, se pide imprimir la tabla de multiplicar del 10 desde el número 1 hasta 50 utilizando cualquier ciclo de los mencionados.
 
 ~~~~
