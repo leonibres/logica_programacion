@@ -14,6 +14,12 @@ En este video se introdujo la necesidad y la estructura básica de los ciclos en
 
 El ciclo while se presentó como una estructura que ejecuta un bloque de código mientras una condición sea verdadera. Se destacó la importancia de asegurar que la condición pueda cambiar dentro del ciclo para evitar bucles infinitos.
 
+let i = 1;
+while (i <= 10) {
+    console.log(`Iteración ${i}`);
+    i++;
+}
+
 Características del ciclo while:
 - La condición se evalúa antes de ejecutar el bloque de código.
 - Puede no ejecutarse nunca si la condición inicialmente es falsa.
