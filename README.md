@@ -1,7 +1,7 @@
 # Ciclos en JavaScript: while, do while, for.
 En este repositorio encontrarás ejemplos y explicaciones detalladas sobre los ciclos en JavaScript: while, do while y for.
 
-## Ciclo while
+## Ciclo while 🔄
 El ciclo while se utiliza cuando queremos que un bloque de código se repita mientras una condición sea verdadera.
 
 ~~~~
@@ -40,7 +40,7 @@ for (let i = 1; i <= 10; i++) {
 }
 ~~~~
 
-## Características:
+### Características:
 Estructura controlada con una variable de control definida internamente.
 Perfecto para iterar sobre arreglos y rangos predecibles.
 
