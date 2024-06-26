@@ -1,5 +1,5 @@
 
-#### Video 1: Introducción a los Ciclos
+#### Introducción a los Ciclos
 
 En este video se introdujo la necesidad y la estructura básica de los ciclos en programación. Se discutió cómo los ciclos permiten ejecutar bloques de código repetidamente mientras se cumpla una condición específica.
 
@@ -15,7 +15,7 @@ while (i <= 10) {
     console.log(`Iteración ${i}`);
     i++;
 }
-Características del ciclo while:
 
-La condición se evalúa antes de ejecutar el bloque de código.
-Puede no ejecutarse nunca si la condición inicialmente es falsa.
+### Características:
+- La condición se evalúa antes de ejecutar el bloque de código.
+- Puede no ejecutarse nunca si la condición inicialmente es falsa.
