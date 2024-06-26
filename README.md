@@ -16,7 +16,8 @@ while (i <= 10) {
 La condición se evalúa antes de ejecutar el bloque de código.
 Puede no ejecutarse nunca si la condición inicialmente es falsa.
 
-## Ciclo do while 🔄
+
+## **Ciclo do while** 🔄
 El ciclo do while es similar al while, pero garantiza que el bloque de código se ejecute al menos una vez, ya que la condición se evalúa después de ejecutar el bloque.
 
 ~~~~
