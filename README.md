@@ -14,11 +14,13 @@ En este video se introdujo la necesidad y la estructura básica de los ciclos en
 
 El ciclo while se presentó como una estructura que ejecuta un bloque de código mientras una condición sea verdadera. Se destacó la importancia de asegurar que la condición pueda cambiar dentro del ciclo para evitar bucles infinitos.
 
+```javascript
 let i = 1;
 while (i <= 10) {
     console.log(`Iteración ${i}`);
     i++;
 }
+
 
 Características del ciclo while:
 - La condición se evalúa antes de ejecutar el bloque de código.
@@ -30,6 +32,14 @@ Características del ciclo while:
 
 Se exploró el ciclo do while, que garantiza al menos una ejecución del bloque de código antes de verificar la condición. Esto es útil en situaciones donde se necesita ejecutar el código al menos una vez sin importar la condición inicial.
 
+```javascript
+let i = 1;
+do {
+    console.log(`Iteración ${i}`);
+    i++;
+} while (i <= 10);
+
+
 Características del ciclo do while:
 - Asegura al menos una ejecución del bloque de código.
 - La condición se evalúa después de cada iteración.
@@ -39,6 +49,11 @@ Características del ciclo do while:
 #### Video 4: Ciclo for
 
 El ciclo for se presentó como una estructura compacta que incluye la inicialización, condición y actualización de la variable de control en una sola línea. Es ideal cuando se conoce el número exacto de iteraciones que se van a realizar.
+
+```javascript
+for (let i = 1; i <= 10; i++) {
+    console.log(`Iteración ${i}`);
+}
 
 Características del ciclo for:
 - Estructura controlada con una variable de control definida internamente.
